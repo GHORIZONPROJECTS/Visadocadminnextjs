@@ -1,0 +1,52 @@
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--bgSoft);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+    color: var(--textSoft);
+    text-transform: capitalize;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.search {
+    display: flex;
+    gap: 10xp;
+    align-items: center;
+    background-color: #2e374a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+    padding: 5px;
+    
+}
+
+.input:focus{
+    outline: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.iconchat {
+    cursor: pointer;
+}
